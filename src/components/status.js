@@ -23,7 +23,7 @@ class Status extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:8085/data", {
+    fetch("https://updateitt.herokuapp.com/data", {
       method: "GET",
     })
       .then((res) => res.json())
