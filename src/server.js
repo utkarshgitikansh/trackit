@@ -31,7 +31,7 @@ global.value = "value";
 
 app.listen(process.env.PORT || 8085, () => {
   https
-    .get("https://www.trackcorona.live/api/countries/", (res) => {
+    .get("https://www.trackcorona.live/api/countries", (res) => {
       const { statusCode } = res;
       const contentType = res.headers["content-type"];
 
