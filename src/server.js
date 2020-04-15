@@ -27,9 +27,9 @@ app.use(function (req, res, next) {
 global.data = "data";
 global.value = "value";
 
-const PORT = process.env.PORT || 8085;
+// const PORT = process.env.PORT || 8085;
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 8085, () => {
   https
     .get("https://www.trackcorona.live/api/countries/", (res) => {
       const { statusCode } = res;
