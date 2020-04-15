@@ -17,7 +17,6 @@ import Col from "reactstrap/lib/Col";
 
 import Status from "../components/status.js";
 import News from "../components/news.js";
-import Timer from "react-compound-timer";
 import Post from "../components/post.js";
 import Story from "../components/story.js";
 
