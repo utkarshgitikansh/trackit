@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   background-color: #add6ff;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -99,14 +100,14 @@
 
 .scroll_side {
   max-height: 1420px;
-  width: 100%;
+  width: 90%;
   overflow: scroll;
   /* -webkit-overflow-scrolling: touch; */
 }
 
 .scroll_mid {
   max-height: 820px;
-  width: 95%;
+  width: 90%;
   overflow: scroll;
   margin: 5px;
 }
