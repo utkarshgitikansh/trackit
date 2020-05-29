@@ -21,6 +21,10 @@ class Story extends React.Component {
       "https://newsapi.org/v2/everything?q=coronavirus%20success%20stories&apiKey=429c0fb561ef41bca3b06bcb3e11fc88",
       {
         method: "GET",
+        mode: "cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
       }
     )
       .then((res) => res.json())
