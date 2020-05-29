@@ -48,7 +48,7 @@ class MainContainer extends React.Component {
       this.setState({
         message: "Stay home stay safe ...",
       });
-    }, 10000);
+    }, 5000);
 
     setInterval(() => {
       this.setState({
