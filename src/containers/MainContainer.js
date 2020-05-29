@@ -60,7 +60,7 @@ class MainContainer extends React.Component {
         <div class="d-flex flex-column margin">
           <News />
           <div>
-            <div class="d-flex bd-highlight margin">
+            <div class="d-flex bd-highlight">
               <div class="margin">
                 <Story />
               </div>
