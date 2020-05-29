@@ -81,7 +81,7 @@ class Story extends React.Component {
           <h2>
             <span class="badge badge-success">SUCCESS STORIES</span>
           </h2>
-          <div class="scroll_mid">{datas}</div>;
+          <div class="scroll_mid">{datas}</div>
         </div>
       );
     }
