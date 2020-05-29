@@ -34,7 +34,7 @@ class Cards extends React.Component {
                 </div>
                 <div class="d-flex flex-row">
                   <div>
-                    <img src={image} />
+                    <img src={image} class="img-responsive" />
                   </div>
                   <div class="news_text">
                     <CardText>{value1}</CardText>

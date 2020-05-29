@@ -73,7 +73,7 @@ class News extends React.Component {
     if (this.state.loading) {
       return (
         <div class="center">
-          <Loader />
+          <Loader />;
         </div>
       );
     } else {
