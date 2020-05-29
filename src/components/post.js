@@ -4,6 +4,9 @@ import Cards from "./cards";
 import Col from "reactstrap/lib/Col";
 import CardStatus from "./cards_status.js";
 import PostStatus from "./post_status.js";
+
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 const htmlToText = require("html-to-text");
 
 class Post extends React.Component {
@@ -69,7 +72,8 @@ class Post extends React.Component {
     if (this.state.loading) {
       return (
         <div class="center">
-          <Loader />;
+          <CircularProgress />
+          {/* <CircularProgress color="secondary" /> */}
         </div>
       );
     } else {

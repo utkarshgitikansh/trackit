@@ -25,14 +25,14 @@ class PostStatus extends React.Component {
       <div>
         <Card>
           <div class="d-flex flex-row" class="card_color">
-            <div class="card_body">
+            <div class="post_body">
               <CardBody border="secondary">
-                <div class="story_header">
+                <div class="post_header">
                   <CardTitle>
                     <b>{name}</b>
                   </CardTitle>
                 </div>
-                <div class="d-flex flex-column" class="card_text">
+                <div class="d-flex flex-column" class="post_text">
                   <CardText>{value1}</CardText>
                   <CardText>{value2}</CardText>
                 </div>

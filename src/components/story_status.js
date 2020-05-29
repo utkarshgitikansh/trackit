@@ -25,14 +25,14 @@ class StoryStatus extends React.Component {
       <div>
         <Card>
           <div class="d-flex flex-row" class="card_color">
-            <div class="card_body">
+            <div class="story_body">
               <CardBody border="secondary">
                 <div class="story_header">
                   <CardTitle class="text-center">
                     <b>{name}</b>
                   </CardTitle>
                 </div>
-                <div class="d-flex flex-column" class="card_text">
+                <div class="d-flex flex-column" class="story_text">
                   <CardText>{value1}</CardText>
                   <a href={value2} target="_blank">
                     {value2}

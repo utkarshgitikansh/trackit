@@ -5,6 +5,8 @@ import Row from "reactstrap/lib/Row";
 import Col from "reactstrap/lib/Col";
 import Loader from "./loader.js";
 
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 class Status extends React.Component {
   constructor(props) {
     super(props);
@@ -98,7 +100,8 @@ class Status extends React.Component {
     if (this.state.loading) {
       return (
         <div class="center">
-          <Loader />;
+          <CircularProgress />
+          {/* <CircularProgress color="secondary" /> */}
         </div>
       );
     } else {

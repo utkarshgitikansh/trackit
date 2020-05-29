@@ -3,7 +3,6 @@ import Loader from "./loader.js";
 import Cards from "./cards";
 import Col from "reactstrap/lib/Col";
 
-import { makeStyles } from "@material-ui/core/styles";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 class News extends React.Component {

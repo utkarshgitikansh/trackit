@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #add6ff;
+  background-color: #ffffff;
   height: fit-content;
   width: 100%;
 }
@@ -134,7 +134,7 @@
 
 .card_header {
   /* background-color: #fe4a49;  border: 3px solid green; */
-  background-color: #fed766;
+  background-color: #dc3545;
   /* text-align: center; */
   font-size: large;
   height: 40px;
@@ -143,36 +143,48 @@
   padding: 10px;
 }
 .story_header {
-  background-color: #fed766;
+  background-color: #28a745;
   /* text-align: center; */
   /* font-size: large; */
   /* padding: 5px; */
   /* text-align: center; */
 }
 
+.post_header {
+  background-color: #007bff;
+}
+
 .card_text {
-  background-color: #add6ff;
+  background-color: #fec1bd;
   /* background-color: #fe4a49; */
   text-align: center;
   padding: 10px;
 }
 
-/* .card_body {
-  text-align: center;
-  font-size: large;
-  font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
-} */
+.card_body {
+  background-color: #fec1bd;
+}
+
+.post_body {
+  background-color: #c9d0ff;
+}
+
+.story_body {
+  background-color: #bfe3bf;
+}
+
+.story_text {
+  background-color: #bfe3bf;
+}
 
 .card_color {
-  background-color: #2ab7ca;
-  border: 3px solid #2ab7ca;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
 }
 
 .news_body {
   /* border: 3px solid #fed766; */
-  background-color: #2ab7ca;
+  background-color: #e4e7ff;
 }
 
 .news_title {
@@ -181,7 +193,7 @@
   padding: 10px;
   font-size: larger;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #fed766;
+  background-color: #17a2b8;
   /* #fe4a49; */
 }
 
@@ -250,4 +262,8 @@ img {
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.navwidth {
+  width: 100%;
 }

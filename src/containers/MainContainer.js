@@ -44,7 +44,7 @@ class MainContainer extends React.Component {
       });
     }, 1000);
 
-    setInterval(() => {
+    setTimeout(() => {
       this.setState({
         message: "Stay home stay safe ...",
       });
@@ -90,6 +90,9 @@ class MainContainer extends React.Component {
             </div>
           </div>
           <div class="d-flex flex-column">
+            <h2>
+              <span class="badge badge-secondary">LOCKDOWN</span>
+            </h2>
             <div class="p-2 bd-highlight" class="basic_config_4">
               <Card
                 width="auto"

@@ -4,6 +4,8 @@ import Cards from "./cards";
 import Col from "reactstrap/lib/Col";
 import StoryStatus from "./story_status.js";
 
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 class Story extends React.Component {
   constructor(props) {
     super(props);
@@ -69,7 +71,8 @@ class Story extends React.Component {
     if (this.state.loading) {
       return (
         <div class="center">
-          <Loader />
+          <CircularProgress />
+          {/* <CircularProgress color="secondary" /> */}
         </div>
       );
     } else {
