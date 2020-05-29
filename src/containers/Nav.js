@@ -34,7 +34,7 @@ class NavContainer extends React.Component {
             </h1>
           </a>
           <div class="pull-right" class="badge badge-light">
-            <h4>©utkarshgitikansh|sajalnahatr</h4>
+            <h4>©utkarshgitikansh</h4>
           </div>
         </nav>
       </React.Fragment>

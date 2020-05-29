@@ -27,7 +27,7 @@ class PostStatus extends React.Component {
           <div class="d-flex flex-row" class="card_color">
             <div class="card_body">
               <CardBody border="secondary">
-                <div class="card_header">
+                <div class="story_header">
                   <CardTitle>
                     <b>{name}</b>
                   </CardTitle>

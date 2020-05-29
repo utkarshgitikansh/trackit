@@ -59,13 +59,13 @@ class Story extends React.Component {
 
     let datas = this.state.count.map((index) => {
       return (
-        <Col className="basic_config">
-          <StoryStatus
-            name={headline[index]}
-            value1={detail[index]}
-            value2={url[index]}
-          />
-        </Col>
+        // <Col className="basic_config">
+
+        <StoryStatus
+          name={headline[index]}
+          value1={detail[index]}
+          value2={url[index]}
+        />
       );
     });
 

@@ -59,21 +59,21 @@ class News extends React.Component {
 
     let datas = this.state.count.map((index) => {
       return (
-        <Col className="basic_config">
-          <Cards
-            name={headline[index]}
-            value1={detail[index]}
-            image={image[index]}
-            // value3={value3[index]}
-          />
-        </Col>
+        // <Col className="basic_config">
+
+        <Cards
+          name={headline[index]}
+          value1={detail[index]}
+          image={image[index]}
+          // value3={value3[index]}
+        />
       );
     });
 
     if (this.state.loading) {
       return (
         <div class="center">
-          <Loader />;
+          <Loader />
         </div>
       );
     } else {

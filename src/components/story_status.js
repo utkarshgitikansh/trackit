@@ -28,7 +28,7 @@ class StoryStatus extends React.Component {
             <div class="card_body">
               <CardBody border="secondary">
                 <div class="story_header">
-                  <CardTitle>
+                  <CardTitle class="text-center">
                     <b>{name}</b>
                   </CardTitle>
                 </div>

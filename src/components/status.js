@@ -104,6 +104,7 @@ class Status extends React.Component {
     } else {
       return (
         <div class="basic_config" class="d-flex flex-column">
+          {/* <div class="d-flex flex-column"> */}
           <h2>
             <span class="badge badge-danger">STATUS</span>
           </h2>
@@ -123,7 +124,8 @@ class Status extends React.Component {
               </div>
             </div>
           </div>
-          <div class="basic_config">
+          {/* <div class="basic_config"> */}
+          <div>
             <CardStatus
               name="Search Result :"
               value1={value1[ind]}
@@ -132,7 +134,8 @@ class Status extends React.Component {
             />
           </div>
           <div>
-            <div class="basic_config">{datas}</div>
+            {/* <div class="basic_config"> */}
+            <div>{datas}</div>
           </div>
         </div>
       );

@@ -60,9 +60,9 @@ class Post extends React.Component {
 
     let datas = this.state.count.map((index) => {
       return (
-        <Col className="basic_config">
-          <PostStatus name={headline[index]} value1={detail[index]} />
-        </Col>
+        // <Col className="basic_config">
+
+        <PostStatus name={headline[index]} value1={detail[index]} />
       );
     });
 
