@@ -17,16 +17,9 @@ class Story extends React.Component {
   }
 
   componentDidMount() {
-    fetch(
-      "https://newsapi.org/v2/everything?q=coronavirus%20success%20stories&apiKey=429c0fb561ef41bca3b06bcb3e11fc88",
-      {
-        method: "GET",
-        mode: "cors",
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-        },
-      }
-    )
+    fetch("https://updateitt.herokuapp.com/googlenews", {
+      method: "GET",
+    })
       .then((res) => res.json())
       .then(
         (result) => {
